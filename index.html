@@ -142,7 +142,7 @@
     <h1>Carteira BTC do Nico</h1>
     <div class="value" id="currentPrice">Carregando preço...</div>
     <div class="value" id="avgPrice">Preço médio de compra: US$ 95,584.00</div>
-    <div class="value" id="walletValueUSD"></div>
+        <div class="value" id="walletValueUSD"></div>
     <div class="value" id="walletValueEUR"></div>
     <div class="profit" id="profitLoss"></div>
     <div class="variation24h" id="change24h"></div>
@@ -151,7 +151,9 @@
   </div>
 
   <div class="chart-container">
-    <canvas id="lineChart"></canvas>
+    <a href="https://www.tradingview.com/chart/?symbol=BINANCE:BTCUSDT" target="_blank" style="display: block; width: 100%; height: 100%;">
+      <canvas id="lineChart" style="pointer-events: none;"></canvas>
+    </a>
   </div>
 
   <script>
